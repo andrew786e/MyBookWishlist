@@ -1,5 +1,5 @@
 
-### MyBookWishlist ###
+# MyBookWishlist #
 Welcome to MyBookWishlist, a handy Android app designed to help you organize your reading preferences! Whether you're an avid reader or just getting started, 
 this app is here to assist you in managing your book wishlist with ease.
 
