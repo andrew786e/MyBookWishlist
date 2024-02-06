@@ -31,7 +31,7 @@ this app is here to assist you in managing your book wishlist with ease.
 
 **Stay Organized:** Keep track of your reading preferences effortlessly and enjoy your personalized book wishlist!
 
-## MyBookWishlist Demo##
+## MyBookWishlist Demo ##
 https://github.com/andrew786e/MyBookWishlist/assets/74216051/fc4841a7-3f78-4cd7-be66-b70f6354d81f
 
 
