@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/list_item_shape"
+    android:elevation="4dp"
+    android:clipToOutline="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/bookHeader"
+            android:layout_width="95dp"
+            android:paddingHorizontal= "15dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="@string/book_title" />
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:text="@string/book_title" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/authorHeader"
+            android:layout_width="95dp"
+            android:paddingHorizontal= "15dp"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:text="@string/author_name" />
+        <TextView
+            android:id="@+id/authorName"
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:text="@string/author_name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/genreHeader"
+            android:layout_width="95dp"
+            android:paddingHorizontal= "15dp"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:text="@string/genre" />
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:textSize="14sp"
+            android:textColor="@color/dark_gray"
+            android:layout_height="wrap_content"
+            android:text="@string/genre" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/publicationYearHeader"
+            android:layout_width="95dp"
+            android:paddingHorizontal= "15dp"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:text="@string/publication_year" />
+        <TextView
+            android:id="@+id/publicationYear"
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:textSize="14sp"
+            android:textColor="@color/dark_gray"
+            android:layout_height="wrap_content"
+            android:text="@string/publication_year" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/statusHeader"
+            android:layout_width="95dp"
+            android:paddingHorizontal= "15dp"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:text="@string/status" />
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@color/dark_gray"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="@string/status" />
+    </LinearLayout>
+</LinearLayout>

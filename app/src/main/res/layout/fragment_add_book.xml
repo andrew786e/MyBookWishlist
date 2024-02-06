@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editBookName"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/edit_text_shape"
+        android:textColor="@color/dark_gray"
+        android:ems="10"
+        android:hint="@string/enter_book_name"
+        android:inputType="text"
+        android:maxLength="50"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editAuthorName"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/dark_gray"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_shape"
+        android:ems="10"
+        android:maxLength="30"
+        android:hint="@string/enter_authors_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBookName" />
+
+    <EditText
+        android:id="@+id/editGenre"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:textColor="@color/dark_gray"
+        android:background="@drawable/edit_text_shape"
+        android:ems="10"
+        android:hint="@string/enter_book_genre"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAuthorName" />
+
+    <EditText
+        android:id="@+id/editYear"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/dark_gray"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_shape"
+        android:ems="10"
+        android:hint="@string/enter_publication_date"
+        android:inputType="number"
+        android:maxLength="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editGenre" />
+
+    <RadioGroup
+        android:id="@+id/editStatus"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edit_text_shape"
+        android:elevation="4dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editYear">
+
+        <RadioButton
+            android:id="@+id/unreadOption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:text="@string/unread" />
+
+        <RadioButton
+            android:id="@+id/readOption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/read" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="218dp"
+        android:layout_height="49dp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="56dp"
+        android:text="@string/title_book_information"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

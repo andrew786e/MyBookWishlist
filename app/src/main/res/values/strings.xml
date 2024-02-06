@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">yenosibi-MyBookWishlist</string>
+    <string name="book_title">Title:</string>
+    <string name="author_name">Author:</string>
+    <string name="genre">Genre:</string>
+    <string name="publication_year">Pub. Year:</string>
+    <string name="status">Status:</string>
+    <string name="add_new_book">Add new book!</string>
+    <string name="numberOfBooks">Book Number: %s</string>
+    <string name="enter_book_name">Enter Book Name</string>
+    <string name="enter_authors_name">Enter Authors Name</string>
+    <string name="enter_book_genre">Enter book genre</string>
+    <string name="read">Read</string>
+    <string name="unread">Unread</string>
+    <string name="enter_publication_date">Enter publication Date</string>
+    <string name="book_information">Book Information</string>
+    <string name="books_read">Books Read: %s</string>
+    <string name="title_book_information">Book Information</string>
+    <string name="publication_year_view">Publication Year</string>
+</resources>
